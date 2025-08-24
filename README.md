@@ -1,1 +1,1 @@
-# MailMind-
+# MailMind
