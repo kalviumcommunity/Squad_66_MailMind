@@ -1,1 +1,1 @@
-# Sqaud_66_MailMind-
+# MailMind-
