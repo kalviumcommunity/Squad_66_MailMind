@@ -170,6 +170,8 @@ In summary, a follow-up email should be polite, appreciative, and concise while 
 This technique is implemented in the backend as a utility function and can be used to encourage the AI to reason step-by-step for any email writing or analysis task.
 
 
+Tokens-and-tokenization
+
 Mailmind logs the number of tokens used in the console/terminal after every AI call.
 Tokens are small units of text (words or word-parts) that the AI model processes to generate responses.
 For example, the sentence “Mailmind is amazing!” might be split into the tokens: “Mail”, “mind”, “ is”, “ amazing”, and “!”.
