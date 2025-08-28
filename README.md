@@ -169,3 +169,11 @@ In summary, a follow-up email should be polite, appreciative, and concise while 
 
 This technique is implemented in the backend as a utility function and can be used to encourage the AI to reason step-by-step for any email writing or analysis task.
 
+
+Mailmind logs the number of tokens used in the console/terminal after every AI call.
+Tokens are small units of text (words or word-parts) that the AI model processes to generate responses.
+For example, the sentence “Mailmind is amazing!” might be split into the tokens: “Mail”, “mind”, “ is”, “ amazing”, and “!”.
+Logging tokens helps developers track and optimize usage, since AI costs and performance are directly tied to how many tokens are consumed in each request.
+
+This functionality is implemented in the backend so every time Mailmind makes a call to the AI, the token count is printed automatically for better monitoring and cost control.
+
