@@ -78,3 +78,22 @@ Reply Draft Prompt:
 “Write a polite reply confirming Friday’s meeting. Email: Hi, can we meet Friday at 3 PM to discuss the project?”
 Output: “Hi, Friday 3 PM works perfectly. Looking forward to it.”
 
+
+
+
+One-shot prompting → Giving the AI one example of how to do the task, then asking it to do the same for a new input.
+
+Summarization Prompt:
+“Example → Email: Hi, your payment was received. → Summary: Payment confirmed.
+Now summarize: Your flight booking is confirmed for 6 PM, ref# A123.”
+Output: “Flight confirmed for 6 PM.”
+
+Triage Prompt:
+“Example → Email: Don’t miss our summer sale! → Label: Newsletter
+Now label: Urgent server outage — fix needed immediately.”
+Output: Urgent
+
+Reply Draft Prompt:
+“Example → Email: Lunch tomorrow? → Reply: Yes, see you at noon.
+Now reply to: Thanks for sending the files, I’ll review them today.”
+Output: “Thanks, let me know if you need anything else.”
