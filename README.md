@@ -154,3 +154,18 @@ Priority: High
 Email: "Monthly newsletter from HR."  
 Priority: Low
 
+
+Mailmind supports chain of thought prompting in its backend. Chain of thought prompting is a technique where the AI is encouraged to reason step-by-step, breaking down its thought process before arriving at a final answer. This is especially useful for writing or analyzing complex emails, as it helps the AI provide more structured, logical, and professional responses.
+
+Example:
+You are helping a user write a professional follow-up email after an interview.
+Q: How should I write a polite follow-up email if I haven’t heard back in two weeks?
+A: Let's think step by step.
+First, I would confirm the purpose of the email — to politely inquire about the interview status.
+Next, I would ensure the tone is professional and appreciative, thanking them for the opportunity.
+Then, I would include a subtle reminder of my interest in the role without sounding pushy.
+Finally, I would end with a courteous call to action, such as asking if they need any further information.
+In summary, a follow-up email should be polite, appreciative, and concise while reiterating interest in the role.
+
+This technique is implemented in the backend as a utility function and can be used to encourage the AI to reason step-by-step for any email writing or analysis task.
+
