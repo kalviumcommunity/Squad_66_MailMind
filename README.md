@@ -97,3 +97,32 @@ Reply Draft Prompt:
 “Example → Email: Lunch tomorrow? → Reply: Yes, see you at noon.
 Now reply to: Thanks for sending the files, I’ll review them today.”
 Output: “Thanks, let me know if you need anything else.”
+
+
+System Prompt (MailMind)
+
+"You are an intelligent email assistant for MailMind. Your role is to summarize, analyze, and classify emails quickly and accurately. Always maintain a professional tone, avoid adding personal opinions, and respond concisely. Output must strictly follow the requested format without deviation."
+
+RTFC in System Prompt:
+
+R (Role): Intelligent email assistant for MailMind
+
+T (Task): Summarize, analyze, and classify emails
+
+F (Format): Must follow requested format strictly
+
+C (Context): Used inside MailMind to help users manage emails professionally
+
+User Prompt (MailMind)
+
+"Summarize the following email in 3 bullet points, highlight the action item if any, and classify it as Business, Personal, or Promotion. Email: 'Hi, the quarterly meeting is rescheduled to 3 PM tomorrow. Please confirm attendance.' "
+
+RTFC in User Prompt:
+
+R (Role): MailMind email assistant
+
+T (Task): Summarize, highlight action item, classify
+
+F (Format): 3 bullet points + classification label
+
+C (Context): Real-world email processing for users
