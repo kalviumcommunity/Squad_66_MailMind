@@ -62,3 +62,19 @@ Fetching emails, processing summaries, and generating replies are optimized to m
 
 The system is modular: frontend deployable on Vercel, backend on any Node-compatible host, and AI layer can be scaled horizontally.
 
+
+
+Zero-shot prompting → Asking an AI to perform a task without giving any examples, only instructions.
+
+Summarization Prompt:
+“Summarize this email in two sentences. Email: Hi, your package has shipped. Expected delivery: Sept 1. Tracking ID: 12345.”
+Output: “Package shipped. Delivery expected Sept 1.”
+
+Triage Prompt:
+“Label this email as urgent, personal, or newsletter. Email: Meeting moved to tomorrow 10 AM — please confirm ASAP.”
+Output: Urgent
+
+Reply Draft Prompt:
+“Write a polite reply confirming Friday’s meeting. Email: Hi, can we meet Friday at 3 PM to discuss the project?”
+Output: “Hi, Friday 3 PM works perfectly. Looking forward to it.”
+
