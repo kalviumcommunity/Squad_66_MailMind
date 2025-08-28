@@ -179,3 +179,24 @@ Logging tokens helps developers track and optimize usage, since AI costs and per
 
 This functionality is implemented in the backend so every time Mailmind makes a call to the AI, the token count is printed automatically for better monitoring and cost control.
 
+
+Prompt:
+
+"Update the temperature parameter in the AI call for Mailmind to control response randomness, and create a pull request with this change. In the video, explain what 'Temperature' means in Large Language Models (LLMs) and how adjusting it affects Mailmind's responses. Also, describe how this update is reflected in the README file."
+
+README Update Text (for Temperature):
+
+Temperature Control in Mailmind
+Mailmind now supports configurable temperature for AI responses.
+
+What is Temperature?
+Temperature determines how predictable or creative the AI’s responses are.
+
+Low temperature (e.g., 0.1–0.3): More focused and deterministic responses.
+
+High temperature (e.g., 0.7–1.0): More diverse and creative responses.
+
+Usage: You can adjust the temperature in the code to suit your email personalization needs.
+
+
+
