@@ -97,3 +97,24 @@ Reply Draft Prompt:
 “Example → Email: Lunch tomorrow? → Reply: Yes, see you at noon.
 Now reply to: Thanks for sending the files, I’ll review them today.”
 Output: “Thanks, let me know if you need anything else.”
+
+
+Dynamic Prompting → Adjusting AI prompts automatically using user input or context to get more relevant results.
+
+Examples:
+
+Email Summarization Prompt:
+“Summarize this email in 2 lines. Context: User is a project manager.”
+→ Output: “Quick update on deliverables, awaiting approval.”
+
+Priority Detection Prompt:
+“Classify email urgency. Context: User prioritizes invoices over newsletters.”
+→ Output: “High Priority”
+
+Reply Drafting Prompt:
+“Draft a polite reply using user’s tone: informal but professional.”
+→ Output: “Hey, thanks for the update! I’ll review and get back to you soon.”
+
+Smart Categorization Prompt:
+“Organize this email into: Work, Personal, Promotions. Context: User is in marketing.”
+→ Output: “Work”
