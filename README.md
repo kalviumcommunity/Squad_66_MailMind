@@ -61,3 +61,4 @@ Fetching emails, processing summaries, and generating replies are optimized to m
 📈 Scalability
 
 The system is modular: frontend deployable on Vercel, backend on any Node-compatible host, and AI layer can be scaled horizontally.
+
