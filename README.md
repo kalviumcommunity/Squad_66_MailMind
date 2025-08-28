@@ -126,3 +126,31 @@ T (Task): Summarize, highlight action item, classify
 F (Format): 3 bullet points + classification label
 
 C (Context): Real-world email processing for users
+
+
+
+Multi-Shot Prompting
+
+What is Multi-Shot Prompting?
+Multi-shot prompting is when you give an AI multiple examples in your prompt to help it learn the task pattern before making a prediction. This improves accuracy because the model understands the desired format and logic from prior examples.
+
+Prompt Used in MailMind:
+We used multi-shot prompting to help MailMind classify emails by priority (High, Medium, Low). By showing several labeled examples, the AI quickly learned how to judge urgency.
+
+Example Prompt:
+
+You are an AI email assistant. Classify each email as High, Medium, or Low priority.  
+Here are examples:
+
+Email: "Meeting with CEO at 4 PM today. Urgent updates required."  
+Priority: High
+
+Email: "Team lunch scheduled for Friday afternoon."  
+Priority: Low
+
+Email: "Client requested revised proposal by tomorrow."  
+Priority: High
+
+Email: "Monthly newsletter from HR."  
+Priority: Low
+
